@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+body {
+  margin: 0;
+  margin: 0;
+  
+  font-family: poppins;
+  background-image: url() ;
+} 
+
+.nav-container {
+  width: 75%;
+  background-color: #6700EE;
+
+}
+
+header {
+  a {
+    padding-right: 2em;
+    padding: 2.5em;
+    color: aliceblue;
+  }
+
+  display: flex;
+  justify-content: space-between;
+
+  nav {
+
+    ul {
+      display: flex;
+      list-style-type: none;
+    }
+
+    a {
+      text-decoration: none;
+
+    }
+  }
+
+}
+
+.hero {
+
+
+  padding: 0;
+  display: grid;
+  grid-template-columns: 75% auto;
+
+}
+
+.group {
+  margin-left: -65%;
+  margin-top: -30%;
+  width: 130%;
+}
+
+.hero-content {
+  background-color: rgba(37, 59, 172, 0.968);
+  padding-bottom: -2em;
+  margin-bottom: 6em;
+  line-height: 80%;
+  border-bottom-right-radius: 1em;
+
+
+  h1 {
+    margin-left: 3em;
+    margin-top: 5em;
+    font-size: 45px;
+    color: whitesmoke;
+    font-weight: bold;
+  }
+
+  h5 {
+    color: azure;
+    font-weight: 100;
+    line-height: 0;
+    padding-left: 10.2em;
+
+  }
+
+}
+
+img {
+  width: 20%;
+}
+
+.education {
+  margin-right: 12em;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0em;
+
+  .photo {
+    margin-left: 10em;
+    padding-top: 4em;
+    width: 15%;
+    height: 80%;
+  }
+
+}
+
+.details {
+  width: auto;
+  border-radius: 5px;
+
+  line-height: 80%;
+  background-color: #A6C2EB;
+  padding: 1em;
+
+  p {
+    padding-left: 1.3em;
+  }
+}
+
+.Skills {
+  background-color: #D44B4B;
+  margin-top: 6em;
+  padding: 3.5em;
+
+  a {
+    font-size: 40px;
+    color: whitesmoke;
+
+    h3 {
+      margin-top: -0.7em;
+    }
+  }
+}
+
+
+.skills-content {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: -3.5em;
+
+}
+
+.uiux {
+  text-align: center;
+  line-height: 80%;
+  background-color: azure;
+  padding-top: 1.5em;
+  border-top-right-radius: 1em;
+  border-top-left-radius: 1em;
+  margin-left: 4em;
+
+  img {
+    width: 60%;
+  }
+}
+
+.front-end {
+  text-align: center;
+  line-height: 80%;
+  background-color: azure;
+  padding-top: 1.5em;
+  border-top-right-radius: 1em;
+  border-top-left-radius: 1em;
+
+  img {
+    width: 50%;
+  }
+}
+
+.proglang {
+  text-align: center;
+  line-height: 80%;
+  background-color: azure;
+  padding-top: 1.5em;
+  border-top-right-radius: 1em;
+  border-top-left-radius: 1em;
+  margin-right: 4em;
+
+  img {
+    width: 50%;
+  }
+}
+
+
+.certifications{
+  border-top-left-radius:1em ;
+  border-top-right-radius: 1em ;
+  
+  a{
+   font-size: 35px;
+   text-decoration: none;
+  }
+  h3{
+  color: black;
+  padding-left: 1em;
+  }
+  margin-top: 7em;
+  
+  
+}
+
+.certifications-content{
+  display: grid;
+
+  
+  .aws{
+    img{
+      width: 50%;
+      
+ 
+    }
+    
+      
+    text-align: center;
+   
+
+  }
+
+  .sql{
+    img{
+      width: 50%;
+    }
+    text-align: center;
+  }
+
+}
